@@ -20,6 +20,7 @@ for (let i = startIndex; i <= totalImages; i++) {
   const img = document.createElement('img');
   img.src = src;
   img.alt = `Party picture ${i}`;
+  img.loading = "lazy";
   link.appendChild(img);
 
   // Create the download icon inside the anchor tag
