@@ -1,0 +1,6 @@
+# GitHub Pages builds this repo with Jekyll. Keep repo and agent docs off the published site.
+# Add any new top-level doc file here too.
+exclude:
+  - README.md
+  - AGENTS.md
+  - CLAUDE.md
